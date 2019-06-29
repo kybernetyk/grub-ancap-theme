@@ -6,7 +6,7 @@ Fuck the state. Taxation is theft.
 
 ## Installation
 
-1. copy the ancap folder to `/usr/share/grub/themes`
+1. copy the `ancap` folder to `/usr/share/grub/themes`
 2. add the path to your grub config under `GRUB_THEME` (usually the config is located at `/etc/default/grub`)
 3. run `sudo grub-mkconfig -o /boot/grub/grub.cfg`
 4. reboot
@@ -17,4 +17,4 @@ I took the Shodan Grub 2 theme and replaced the background image + changed the c
 
 ## License
 
-I put this under MIT but I have no idea what the original license was. So yeah ... (intellectual property is theft so who cares)
+I put this under MIT but I have no idea what the original license was. So yeah ...
