@@ -6,7 +6,10 @@ Fuck the state. Taxation is theft.
 
 ## Installation
 
-Copy the ancap folder to /usr/share/grub/themes and then run `sudo grub-mkconfig -o /boot/grub/grub.cfg`
+1. copy the ancap folder to `/usr/share/grub/themes`
+2. add the path to your grub config under `GRUB_THEME` (usually the config is located at `/etc/default/grub`)
+3. run `sudo grub-mkconfig -o /boot/grub/grub.cfg`
+4. reboot
 
 ## Acknowledgements
 
